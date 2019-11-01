@@ -1,2 +1,2 @@
-#Puja Fitzpatrick's Portfolio Website
+# Puja Fitzpatrick's Portfolio Website
 ## https://pujafitz.com
