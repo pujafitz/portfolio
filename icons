@@ -1,0 +1,74 @@
+<ul class="list-inline dev-icons">
+    <li class="list-inline-item">
+    <i class="fab fa-js-square" title="JavaScript"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-html5" title="HTML"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-css3-alt" title="CSS"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-npm" title="npm"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-bootstrap-plain" title="Bootstrap"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-react" title="React"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-node-js" title="Node.js"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-express-original" title="express"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-postgresql-plain" title="PostgreSQL"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-mysql-plain" title="mySQL"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-jquery-plain" title="jQuery"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="fab fa-python" title="Python"></i>
+    </li>
+    <li class="list-inline-item">
+        <i class="devicon-git-plain" title="Git"></i>
+    </li>
+    <li class="list-inline-item">
+    <i class="devicon-amazonwebservices-original" title="AWS"></i>
+    </li>
+</ul>
+
+.social-icons a {
+  display: inline-block;
+  height: 3.5rem;
+  width: 3.5rem;
+  background-color: #495057;
+  color: #fff !important;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
+  margin-right: 1rem;
+}
+.social-icons a:last-child {
+  margin-right: 0;
+}
+.social-icons a:hover {
+  background-color: #40FFB8;
+}
+.dev-icons {
+  font-size: 3rem;
+}
+.dev-icons .list-inline-item i:hover {
+  color: #40FFB8;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box; // 1
+}
