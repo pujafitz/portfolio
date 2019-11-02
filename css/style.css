@@ -282,7 +282,7 @@ input[type="checkbox"] {
     left: 0;
     overflow-y: scroll;
     z-index: 1001;
-    background-color: #f8f1fe;
+    background-color: #f8f2fe;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -476,7 +476,7 @@ input[type="checkbox"] {
 #aside .footer ul li a:focus {
     text-decoration: none;
     outline: none;
-    color: #695380;
+    color: #633495;
 }
 
 i.side-footer {
@@ -484,10 +484,13 @@ i.side-footer {
     padding-right: 15px;
     border-radius: 5px;
     font-size: 30px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 i.side-footer:hover {
-    color: #695380;
+    color: #633495;
     font-size: 30px;
 }
 
@@ -804,7 +807,7 @@ body.offcanvas .nav-toggle {
 
 .about-contact-wrap ul li a {
     text-decoration: none;
-    color: #636166;
+    color: #695380;
     position: relative;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
@@ -814,7 +817,7 @@ body.offcanvas .nav-toggle {
 }
 
 .about-contact-wrap ul li a:hover {
-    color: #BD0A0D;
+    color: #101010;
 }
 
 .about-content-logo {
@@ -846,7 +849,7 @@ body.offcanvas .nav-toggle {
     font-family: 'Oswald', sans-serif;
     font-size: 12px;
     text-transform: uppercase;
-    color: #636166;
+    color: #695380;
     font-weight: 400;
     letter-spacing: 5px;
 }
@@ -918,11 +921,11 @@ body.offcanvas .nav-toggle {
     display: block;
     margin-bottom: 0px;
     font-size: 13px;
-    color: #636166 !important;
+    color: #695380 !important;
 }
 
 .blog-entry .desc span small i {
-    color: #636166;
+    color: #695380;
 }
 
 .blog-entry .desc .lead {
@@ -1338,6 +1341,16 @@ ol.comment-list li .children li {
     color: #ccc
 }
 
+.icon {
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
+.icon:hover {
+    color: #633495;
+}
+
 .project .desc h3 {
     color: #fff;
     font-size: 18px;
@@ -1419,6 +1432,9 @@ ol.comment-list li .children li {
 .footer3 {
     display: inline-flex;
     flex-direction: row;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
 }
 
 i.footer3 {
@@ -1619,13 +1635,18 @@ ul.social-network li {
     border-style: solid;
     color: #fff;
     border-width: 0;
-    -webkit-transition: background-color .15s ease-out;
-    transition: background-color .15s ease-out;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
     background-color: #101010;
     margin-top: 10px;
     border-radius: 0;
     margin-right: 10px;
     float: left;
+}
+
+.btn:hover {
+    background-color: #633495;
 }
 
 #message {
