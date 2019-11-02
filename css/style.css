@@ -491,6 +491,10 @@ i.side-footer:hover {
     font-size: 30px;
 }
 
+i.side-footer a:visited {
+    color: #1F3653;
+}
+
 /*** 04. Content styles ***/
 
 #main {
@@ -1424,8 +1428,12 @@ i.footer3 {
 }
 
 i.footer3:hover {
-    color: white;
+    color: #F8F2FE;
     font-size: 30px;
+}
+
+.footer3 a:visited {
+    color: #fff;
 }
 
 #footer2 {
