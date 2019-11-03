@@ -909,8 +909,8 @@ body.offcanvas .nav-toggle {
     font-weight: 400;
 }
 
-.blog-entry .desc h3 a {
-    color: #101010;
+.blog-entry .desc h6 {
+    color: #636166;
     text-decoration: none;
     font-family: 'Rambla', sans-serif;
     font-weight: 700;
@@ -1349,6 +1349,16 @@ ol.comment-list li .children li {
 
 .icon:hover {
     color: #633495;
+}
+
+.im {
+    font-size: 16px;
+}
+
+.desc li {
+    display: inline;
+    margin-top: 20px;
+    padding: 30px;
 }
 
 .project .desc h3 {
