@@ -1356,9 +1356,9 @@ ol.comment-list li .children li {
 }
 
 .desc li {
-    display: inline;
-    margin-top: 20px;
-    padding: 30px;
+    display: inline-flex;
+    flex-direction: row;
+    padding: 10px;
 }
 
 .project .desc h3 {
