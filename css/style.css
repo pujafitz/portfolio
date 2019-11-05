@@ -290,6 +290,14 @@ input[type="checkbox"] {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
 }
 
+.pf-logo {
+    width: 100px;
+}
+
+.pf-logo-footer {
+    width: 75px;
+}
+
 @media screen and (max-width: 1200px) {
     #aside {
         width: 30%;
