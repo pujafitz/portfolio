@@ -1673,6 +1673,13 @@ p.contact-name {
     background-color: #633495;
 }
 
+.say-hello a {
+    color: #f8f2fe;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+
 #message {
     height: 130px;
 }
