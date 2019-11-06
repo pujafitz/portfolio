@@ -414,9 +414,10 @@ input[type="checkbox"] {
 #aside #main-menu ul li a:hover {
     text-decoration: none;
     color: #101010;
-    -webkit-transform: scale(1.1);
+    font-weight: 600;
+    /* -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
-    transform: scale(1.1);
+    transform: scale(1.1); */
 }
 
 #aside #main-menu ul li.active a {
