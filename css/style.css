@@ -21,7 +21,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Oswald:400,500|amplitude:400,700');
 @import url("https://use.typekit.net/zym8hos.css");
-@import url("https://use.typekit.net/zym8hos.css");
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans&display=swap');
 
 /*** 02. Default styles ***/
 
@@ -35,16 +35,19 @@ body {
 
 body {
     font-family: 'amplitude', sans-serif;
-    font-size: 16px;
+    font-size: 0.9rem;
     line-height: 1.75em;
-    font-weight: 400;
+    /* font-weight: 400; */
     color: #636166;
 }
 
 
 /*** typography ***/
 
-
+/* .ascii-art {
+    font-family: monospace !important;
+    white-space: pre !important;
+} */
 /* headings */
 
 h1,
@@ -65,7 +68,7 @@ h6 {
 
 p {
     font-family: 'amplitude', sans-serif;
-    font-size: 16px;
+    font-size: 0.9rem;
     line-height: 1.75em;
     font-weight: 400;
     color: #695380;
@@ -1082,7 +1085,7 @@ body.offcanvas .nav-toggle {
 .tags li {
     display: inline-block;
     margin: 0 5px 5px 0px;
-    float: left;
+    float:e left;
 }
 
 .tags li a {
